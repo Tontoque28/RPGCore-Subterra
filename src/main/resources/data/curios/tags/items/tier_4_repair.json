@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:netherite_ingot",
+    { "id": "advancednetherite:netherite_iron_ingot", "required": false },
+    { "id": "advancednetherite:netherite_gold_ingot", "required": false }
+  ]
+}

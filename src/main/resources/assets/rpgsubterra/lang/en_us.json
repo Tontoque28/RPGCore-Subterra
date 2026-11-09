@@ -1,0 +1,54 @@
+{
+  "creativetab.rpgsubterra.subterra_tab": "RPGCore: Subterra",
+
+  "item.rpgsubterra.miner_tier_1_helmet": "Basic Miner Helmet (Tallow Candle)",
+  "item.rpgsubterra.miner_tier_1_chestplate": "Basic Miner Harness",
+  "item.rpgsubterra.miner_tier_1_leggings": "Basic Miner Pants",
+  "item.rpgsubterra.miner_tier_1_boots": "Basic Miner Boots",
+
+  "item.rpgsubterra.miner_tier_2_helmet": "Reinforced Miner Helmet",
+  "item.rpgsubterra.miner_tier_2_chestplate": "Reinforced Miner Vest",
+  "item.rpgsubterra.miner_tier_2_leggings": "Reinforced Miner Greaves",
+  "item.rpgsubterra.miner_tier_2_boots": "Reinforced Miner Boots",
+
+  "item.rpgsubterra.miner_tier_3_helmet": "Expert Delver Helmet",
+  "item.rpgsubterra.miner_tier_3_chestplate": "Expert Delver Chestplate",
+  "item.rpgsubterra.miner_tier_3_leggings": "Expert Delver Leggings",
+  "item.rpgsubterra.miner_tier_3_boots": "Expert Delver Boots",
+
+  "item.rpgsubterra.miner_tier_4_helmet": "Advanced Abyssal Helmet",
+  "item.rpgsubterra.miner_tier_4_chestplate": "Advanced Abyssal Chestplate",
+  "item.rpgsubterra.miner_tier_4_leggings": "Advanced Abyssal Leggings",
+  "item.rpgsubterra.miner_tier_4_boots": "Advanced Abyssal Boots",
+
+  "item.rpgsubterra.miner_tier_5_helmet": "Master Astral Delver Helmet",
+  "item.rpgsubterra.miner_tier_5_chestplate": "Master Astral Delver Chestplate",
+  "item.rpgsubterra.miner_tier_5_leggings": "Master Astral Delver Leggings",
+  "item.rpgsubterra.miner_tier_5_boots": "Master Astral Delver Boots",
+
+  "item.rpgsubterra.stone_chisel": "Worn Stone Chisel",
+  "item.rpgsubterra.silver_chisel": "Tempered Silver Chisel",
+  "item.rpgsubterra.resonant_chisel": "Resonant Prospector Chisel",
+
+  "item.rpgsubterra.pyrite_clover": "Pyrite Four-Leaf Clover",
+  "item.rpgsubterra.fortune_geode": "Lucky Prospector Geode",
+
+  "item.rpgsubterra.belt_candle": "Delver's Head Candle",
+  "item.rpgsubterra.miner_belt_lantern": "Miner's Headband Lantern",
+
+  "tooltip.rpgsubterra.tier_header": "Tier %s — Mining Gear",
+  "tooltip.rpgsubterra.helmet_light": "✦ Directional Lamp: Level %s (%sm)",
+  "tooltip.rpgsubterra.full_set_header": "Full Set Bonus (4/4):",
+  "tooltip.rpgsubterra.mining_speed": " +%s%% Mining Speed",
+  "tooltip.rpgsubterra.less_fatigue": " • Reduced tool wear & mining hunger",
+  "tooltip.rpgsubterra.underwater_fall": " • Improved underwater mining & fall/blast resist",
+  "tooltip.rpgsubterra.lava_protection": " • Thermal & lava protection",
+  "tooltip.rpgsubterra.curio_header": "Mining Accessory (Curios)",
+  "tooltip.rpgsubterra.extra_fortune": " +%s%% Extra Ore Drop Chance",
+  "tooltip.rpgsubterra.cave_relic": " (Mineshaft / Cave Relic)",
+  "item.rpgsubterra.prospector_reliquary": "Ancient Prospector's Reliquary",
+  "tooltip.rpgsubterra.charm_unlocker_desc": "Right-click to permanently unlock +1 Charm slot",
+  "tooltip.rpgsubterra.charm_unlocker_limit": "Can only be used once per player",
+  "message.rpgsubterra.charm_slot_unlocked": "✦ You have permanently unlocked +1 Charm Slot!",
+  "message.rpgsubterra.charm_slot_already_unlocked": "You have already used a Prospector's Reliquary!"
+}
