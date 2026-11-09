@@ -1,0 +1,68 @@
+plugins {
+	id 'net.fabricmc.fabric-loom-remap' version "${loom_version}"
+}
+
+version = ''
+group = project.maven_group
+base { archivesName = "RPGCoreSubterra-${project.mod_version}-Fabric-${project.minecraft_version}" }
+
+repositories {
+	maven {
+		name = 'TerraformersMC'
+		url = 'https://maven.terraformersmc.com/releases/'
+	}
+	maven {
+		name = 'Ladysnake'
+		url = 'https://maven.ladysnake.org/releases'
+	}
+	flatDir {
+		dir 'libs'
+	}
+}
+
+loom {
+	mixin {
+		useLegacyMixinAp = true
+	}
+
+	runs {
+		server {
+			property "oshi.os.windows.hkeyperfdata", "false"
+		}
+	}
+}
+
+dependencies {
+	minecraft "com.mojang:minecraft:${project.minecraft_version}"
+	mappings loom.officialMojangMappings()
+	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
+	compileOnly "net.fabricmc:sponge-mixin:0.17.3+mixin.0.8.7"
+	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
+	modImplementation("dev.emi:trinkets:${project.trinkets_version}") {
+		transitive = false
+	}
+	if (file('libs/RPGCore-1.0.2.jar').exists()) {
+		modRuntimeOnly "blank:RPGCore:1.0.2"
+	}
+	modImplementation "io.github.onyxstudios.Cardinal-Components-API:cardinal-components-base:${project.cca_version}"
+	modImplementation "io.github.onyxstudios.Cardinal-Components-API:cardinal-components-entity:${project.cca_version}"
+}
+
+processResources {
+	inputs.property "version", project.mod_version
+	filesMatching("fabric.mod.json") {
+		expand "version": project.mod_version
+	}
+}
+
+tasks.withType(JavaCompile).configureEach {
+	it.options.encoding = 'UTF-8'
+}
+
+java {
+	withSourcesJar()
+
+	toolchain {
+		languageVersion = JavaLanguageVersion.of(8)
+	}
+}
