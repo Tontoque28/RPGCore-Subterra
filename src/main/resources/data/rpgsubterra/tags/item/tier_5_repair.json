@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:echo_shard",
+    { "id": "advancednetherite:netherite_diamond_ingot", "required": false },
+    { "id": "cataclysm:ignitium_ingot", "required": false }
+  ]
+}

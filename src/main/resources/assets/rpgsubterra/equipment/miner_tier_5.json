@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "rpgsubterra:miner_tier_5"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "rpgsubterra:miner_tier_5"
+      }
+    ]
+  }
+}
