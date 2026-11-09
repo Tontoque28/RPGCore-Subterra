@@ -1,0 +1,54 @@
+{
+  "creativetab.rpgsubterra.subterra_tab": "RPGCore: Subterra",
+
+  "item.rpgsubterra.miner_tier_1_helmet": "Casco de Minero Básico (Vela)",
+  "item.rpgsubterra.miner_tier_1_chestplate": "Arnés de Minero Básico",
+  "item.rpgsubterra.miner_tier_1_leggings": "Pantalones de Minero Básico",
+  "item.rpgsubterra.miner_tier_1_boots": "Botas de Minero Básico",
+
+  "item.rpgsubterra.miner_tier_2_helmet": "Casco de Minero Reforzado",
+  "item.rpgsubterra.miner_tier_2_chestplate": "Chaleco de Minero Reforzado",
+  "item.rpgsubterra.miner_tier_2_leggings": "Grebas de Minero Reforzado",
+  "item.rpgsubterra.miner_tier_2_boots": "Botas de Minero Reforzado",
+
+  "item.rpgsubterra.miner_tier_3_helmet": "Casco de Minero Experto",
+  "item.rpgsubterra.miner_tier_3_chestplate": "Pechera de Minero Experto",
+  "item.rpgsubterra.miner_tier_3_leggings": "Pantalones de Minero Experto",
+  "item.rpgsubterra.miner_tier_3_boots": "Botas de Minero Experto",
+
+  "item.rpgsubterra.miner_tier_4_helmet": "Casco de Minero Avanzado",
+  "item.rpgsubterra.miner_tier_4_chestplate": "Pechera de Minero Avanzado",
+  "item.rpgsubterra.miner_tier_4_leggings": "Pantalones de Minero Avanzado",
+  "item.rpgsubterra.miner_tier_4_boots": "Botas de Minero Avanzado",
+
+  "item.rpgsubterra.miner_tier_5_helmet": "Casco de Minero Maestro",
+  "item.rpgsubterra.miner_tier_5_chestplate": "Pechera de Minero Maestro",
+  "item.rpgsubterra.miner_tier_5_leggings": "Pantalones de Minero Maestro",
+  "item.rpgsubterra.miner_tier_5_boots": "Botas de Minero Maestro",
+
+  "item.rpgsubterra.stone_chisel": "Cincel de Piedra Gastado",
+  "item.rpgsubterra.silver_chisel": "Cincel de Plata Templada",
+  "item.rpgsubterra.resonant_chisel": "Cincel Resonante",
+
+  "item.rpgsubterra.pyrite_clover": "Trébol de Pirita",
+  "item.rpgsubterra.fortune_geode": "Geoda de la Fortuna",
+
+  "item.rpgsubterra.belt_candle": "Candil Frontal de Minero",
+  "item.rpgsubterra.miner_belt_lantern": "Linterna Frontal de Minero",
+
+  "tooltip.rpgsubterra.tier_header": "Tier %s — Equipo de Minería",
+  "tooltip.rpgsubterra.helmet_light": "✦ Luz Direccional: Nivel %s (%sm)",
+  "tooltip.rpgsubterra.full_set_header": "Bonus de Set Completo (4/4):",
+  "tooltip.rpgsubterra.mining_speed": " +%s%% Velocidad de Minería",
+  "tooltip.rpgsubterra.less_fatigue": " • Menor desgaste y fatiga al picar",
+  "tooltip.rpgsubterra.underwater_fall": " • Minería subacuática y resist. a caídas/explosiones",
+  "tooltip.rpgsubterra.lava_protection": " • Protección térmica contra lava",
+  "tooltip.rpgsubterra.curio_header": "Accesorio de Minería (Curios)",
+  "tooltip.rpgsubterra.extra_fortune": " +%s%% Probabilidad de Mineral Extra",
+  "tooltip.rpgsubterra.cave_relic": " (Reliquia de Mineshaft/Cuevas)",
+  "item.rpgsubterra.prospector_reliquary": "Relicario del Gambusino Ancestral",
+  "tooltip.rpgsubterra.charm_unlocker_desc": "Clic derecho para desbloquear +1 ranura de Amuleto permanente",
+  "tooltip.rpgsubterra.charm_unlocker_limit": "Solo se puede consumir una vez por jugador",
+  "message.rpgsubterra.charm_slot_unlocked": "✦ ¡Has desbloqueado +1 Ranura de Amuleto permanentemente!",
+  "message.rpgsubterra.charm_slot_already_unlocked": "¡Ya has desbloqueado el límite de este relicario!"
+}

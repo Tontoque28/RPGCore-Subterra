@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    { "id": "minecraft:copper_ingot", "required": false },
+    { "id": "#forge:ingots/silver", "required": false }
+  ]
+}
